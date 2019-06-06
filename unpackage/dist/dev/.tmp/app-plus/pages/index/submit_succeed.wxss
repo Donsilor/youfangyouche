@@ -1,0 +1,26 @@
+
+.img_box{
+	width: 192rpx;
+	height: 192rpx;
+	margin: 192rpx auto 0;
+	text-align: center;
+	line-height: 192rpx;
+}
+.img_box ._i{
+	font-size: 190rpx;
+	color: #ff8e06;
+}
+.tit{
+	font-size: 34rpx;
+	color: #333;
+	font-weight: bold;
+	margin: 30rpx 0;
+	text-align: center;
+}
+.text{
+	font-size: 28rpx;
+	color: #333;
+	text-align: center;
+}
+
+

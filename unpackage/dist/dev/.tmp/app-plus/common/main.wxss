@@ -1,0 +1,191 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+page{
+	max-width: 750px;
+	margin: 0 auto !important;
+}
+/* reset */
+page,page,._div,._span,._iframe,._h1,._h2,._h3,._h4,._h5,._h6,._em,._img,._strong,._sub,._sup,._b,._i,._dl,._dt,._dd,._ol,._ul,._li,form,label,._table,._tbody,._tfoot,._thead,._tr,._th,._td,._p,canvas,._footer,._header,._nav,audio,video {
+	margin:0;
+	padding:0;
+}
+._h1,._h2,._h3,._h4,._h5,._h6,._em,._i {
+	font-weight:100;
+	font-style:normal;
+}
+._ul,._ol,._li {
+	list-style-type:none;
+}
+input {
+	outline: none;
+	border: none;
+}
+button:after{
+	border: 0;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clf:after{
+	display: block;
+	content: '.';
+	visibility: hidden;
+	opacity: 0;
+	height: 0;
+	clear: both;
+}
+.btn_r{
+	width: 650rpx;
+	height: 94rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#ff8e06), to(#ff5011));
+	background: -o-linear-gradient(left, #ff8e06, #ff5011);
+	background: linear-gradient(left, #ff8e06, #ff5011);
+	border-radius: 47rpx;
+	font-size: 28rpx;
+	color: #fff;
+	text-align: center;
+	line-height: 94rpx;
+	margin: 90rpx auto 0;
+	opacity: .5;
+}
+.btn_r.on{
+	opacity: 1;
+}
+.bgcolor_r{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #f5f5f5;
+	z-index: -2;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 1187559 */
+  src: url('http://at.alicdn.com/t/font_1187559_elnhdyckmss.eot');
+  src: url('http://at.alicdn.com/t/font_1187559_elnhdyckmss.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1187559_elnhdyckmss.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1187559_elnhdyckmss.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1187559_elnhdyckmss.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1187559_elnhdyckmss.svg#iconfont') format('svg');
+}
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icondaohang:before {
+  content: "\E602";
+}
+.iconfenxiang:before {
+  content: "\E600";
+}
+.iconcart:before {
+  content: "\E601";
+}
+.iconiconfontfenxiang3:before {
+  content: "\E629";
+}
+.iconshanchu:before {
+  content: "\E6FA";
+}
+.iconkefu:before {
+  content: "\E658";
+}
+.iconnotice:before {
+  content: "\E6A9";
+}
+.iconjian:before {
+  content: "\E608";
+}
+.iconjia:before {
+  content: "\E609";
+}
+.icondizhi:before {
+  content: "\E604";
+}
+.icondianhua:before {
+  content: "\E605";
+}
+.iconunselected:before {
+  content: "\E607";
+}
+.iconselected:before {
+  content: "\E60F";
+}
+.iconxiangji:before {
+  content: "\E60E";
+}
+.iconshoucang:before {
+  content: "\E613";
+}
+.iconMagnifier:before {
+  content: "\E62D";
+}
+.iconjifendingdan:before {
+  content: "\E60B";
+}
+.iconjifenduihuan:before {
+  content: "\E60C";
+}
+.iconclear:before {
+  content: "\E713";
+}
+.iconmenu-line:before {
+  content: "\E653";
+}
+.iconkefu2:before {
+  content: "\E610";
+}
+.iconfanhui:before {
+  content: "\E60A";
+}
+.icongengduo:before {
+  content: "\E617";
+}
+.iconmimabukejian:before {
+  content: "\E61B";
+}
+.iconmimakejian:before {
+  content: "\E61C";
+}
+.iconxingxing:before {
+  content: "\E618";
+}
+.iconkefu1:before {
+  content: "\E60D";
+}
+.iconshezhi:before {
+  content: "\E615";
+}
+.icondianzan:before {
+  content: "\E616";
+}
+.icondizhi1:before {
+  content: "\E622";
+}
+.iconhuiyuan:before {
+  content: "\E62F";
+}
+
+
+

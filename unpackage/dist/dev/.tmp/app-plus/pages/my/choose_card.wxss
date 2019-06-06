@@ -1,0 +1,105 @@
+
+page{
+	background-color: #f5f5f5;
+}
+.container{
+	padding: 30rpx 30rpx 120rpx;
+}
+.title{
+	font-size: 28rpx;
+	color: #999;
+}
+.box{
+	margin-top: 20rpx;
+}
+.box .list{
+	width: 690rpx;
+	padding: 20rpx 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+	border-radius: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.box .left{
+	width: 70rpx;
+	height: 70rpx;
+	border-radius: 50%;
+	margin-right: 30rpx;
+}
+.box .left image{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.box .right{
+	width: 590rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.box .right .bank_name{
+	font-size: 34rpx;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 30rpx;
+}
+.box .right .user{
+	height: 40rpx;
+}
+.box .right .user_name{
+	font-size: 28rpx;
+	color: #666;
+	width: 160rpx;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.box .right .identity_card{
+	font-size: 28rpx;
+	color: #666;
+	width: 360rpx;
+	text-align: right;
+	overflow: hidden;
+}
+.box .right .identity_card ._span{
+	float: right;
+	margin-left: 10rpx;
+}
+.star{
+	margin-top: 6rpx;
+}
+.btn{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 98rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#ff8e06), to(#ff5011));
+	background: -o-linear-gradient(left, #ff8e06, #ff5011);
+	background: linear-gradient(left, #ff8e06, #ff5011);
+	font-size: 32rpx;
+	color: #fff;
+	text-align: center;
+	line-height: 98rpx;
+}
+

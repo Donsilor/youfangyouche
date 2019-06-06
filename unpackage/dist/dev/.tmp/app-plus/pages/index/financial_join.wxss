@@ -1,0 +1,139 @@
+
+.container{
+	background-color: #f5f5f5;
+	padding: 20rpx 0 130rpx;
+}
+.order_money{
+	width: 750rpx;
+	height: 100rpx;
+	padding: 0 30rpx; 
+	-webkit-box-sizing: border-box; 
+	        box-sizing: border-box;
+	font-size: 32rpx;
+	line-height: 100rpx;
+	background-color: #fff;
+}
+.order_money .color{
+	color: #ff1919;
+	margin-right: 10rpx;
+}
+.type{
+	height: 82rpx;
+	line-height: 82rpx;
+	font-size: 26rpx;
+	color: #999;
+	padding-left: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.bgcolor{
+	background-color: #fff;
+}
+.bgcolor .inform{
+	width: 690rpx;
+	height: 106rpx;
+	line-height: 106rpx;
+	font-size: 30rpx;
+	margin-left: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #fff;
+	border-bottom: 1rpx solid #f5f5f5;
+}
+.list{
+	height: 88rpx;
+	background-color: #fff;
+	line-height: 88rpx;
+	font-size: 30rpx;
+	color: #333;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.list .left{
+	width: 200rpx;
+	border: 1rpx solid red;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.list .right{
+	width: 500rpx;
+	border: 1rpx solid red;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.card_box{
+	width: 750;
+	height: 520rpx;
+	padding-top: 30rpx;
+	background-color: #fff;
+}
+.card_box .img{
+	width: 350rpx;
+	height: 350rpx;
+	margin: 0 auto;
+}
+.card_box .img image{
+	width: 100%;
+	height: 100%;
+}
+.hint{
+	font-size: 24rpx;
+	color: #ff5011;
+	margin: 30rpx;
+}
+.pop_up{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .3);
+}
+.pop_up .box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	width: 560rpx;
+	height: 290rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+}
+.pop_up .box .content{
+	padding-top: 40rpx;
+	text-align: center;
+}
+.pop_up .box .content .affirm{
+	font-size: 36rpx;
+	color: #000;
+}
+.pop_up .box .content .quiz{
+	font-size: 30rpx;
+	color: #999;
+	margin-top: 20rpx;
+}
+.pop_up .box .btn_box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100rpx;
+	border-top: 1rpx solid #d2d3d5;
+}
+.pop_up .box .btn_box .btn{
+	width: 50%;
+	text-align: center;
+	line-height: 100rpx;
+	font-size: 36rpx;
+	color: #000;
+}
+.pop_up .box .btn_box .confirm{
+	color: #ff5011;
+	border-left: 1rpx solid #d2d3d5;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+

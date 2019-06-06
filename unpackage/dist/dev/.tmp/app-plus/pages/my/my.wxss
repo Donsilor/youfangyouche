@@ -1,0 +1,192 @@
+
+.container{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+.top_bgcolor{
+	width: 100%;
+	height: 494rpx;
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/youfangyouche/personal_01.png') no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 128rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	/* margin-top: -80upx; */
+}
+.top_bgcolor .user{
+	height: 80rpx;
+}
+.top_bgcolor .user .user_img{
+	width: 80rpx;
+	height: 80rpx;
+	background-color: #fff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 80rpx;
+	margin: 0 30rpx;
+}
+.top_bgcolor .user .user_img image{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.top_bgcolor .user .user_name{
+	font-size: 30rpx;
+	color: #fff;
+	margin-right: 30rpx;
+}
+.top_bgcolor .user .rank{
+	width: 96rpx;
+	height: 30rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#57575c), color-stop(#363b3f), to(#0f0e15));
+	background: -o-linear-gradient(left, #57575c, #363b3f, #0f0e15);
+	background: linear-gradient(to right, #57575c, #363b3f, #0f0e15);
+	border-radius: 15rpx;
+	line-height: 30rpx;
+	margin-top: 8rpx;
+	font-size: 24rpx;
+	color: #fff;
+}
+.top_bgcolor .user .rank .circle{
+	width: 30rpx;
+	height: 30rpx;
+	background: -webkit-gradient(linear, left top, right bottom, from(#f8d986), to(#cea048));
+	background: -o-linear-gradient(top left, #f8d986, #cea048);
+	background: linear-gradient(top left, #f8d986, #cea048);
+	border-radius: 50%;
+	margin-left: -2rpx;
+	margin-right: 8rpx;
+	text-align: center;
+	line-height: 28rpx;
+}
+.top_bgcolor .user .rank .circle .iconxingxing{
+	font-size: 22rpx;
+	color: #fff;
+}
+.top_bgcolor .user .user_id{
+	font-size: 26rpx;
+	color: #fff;
+	margin-top: 10rpx;
+}
+.integral{
+	width: 690rpx;
+	margin: 50rpx 30rpx 0 30rpx;
+	position: relative;
+}
+.integral .integral_r{
+	width: 50%;
+	text-align: center;
+	font-size: 26rpx;
+	color: #fff;
+}
+.integral .num{
+	font-size: 50rpx;
+	color: #fff;
+	margin-bottom: 10rpx;
+}
+.integral .line{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	height: 60rpx;
+	width: 1rpx;
+	border-left: 1rpx solid #fff;
+}
+.my_order{
+	width: 710rpx;
+	hegiht: 256rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: -100rpx 0 0 20rpx;
+	padding: 40rpx 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.my_order .tit{
+	font-size: 34rpx;
+	color: #333;
+	margin-left: 30rpx;
+}
+.my_order .order_box{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin-top: 40rpx;
+}
+.my_order .order_box .list{
+	font-size: 24rpx;
+	color: #333;
+	text-align: center;
+}
+.my_order .order_box .list .icon{
+	width: 68rpx;
+	height: 62rpx;
+	margin: 0 auto 20rpx;
+}
+.my_order .icon1{
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/longniao/my_icon_01.png') no-repeat center center;
+	background-size: 64rpx 62rpx;
+}
+.my_order .icon2{
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/longniao/my_icon_02.png') no-repeat center center;
+	background-size: 60rpx 56rpx;
+}
+.my_order .icon3{
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/longniao/my_icon_03.png') no-repeat center center;
+	background-size: 68rpx 60rpx;
+}
+.my_order .icon4{
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/longniao/my_icon_04.png') no-repeat center center;
+	background-size: 60rpx 54rpx;
+}
+.my_order .icon5{
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/longniao/my_icon_05.png') no-repeat center center;
+	background-size: 48rpx 56rpx;
+}
+.my_box{
+	width: 710rpx;
+	background-color: #fff;
+	border-radius: 10rpx;
+	margin: 20rpx;
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.my_box .list{
+	height: 100rpx;
+	font-size: 30rpx;
+	color: #333;
+	line-height: 100rpx;
+}
+.my_box .list .icon{
+	width: 36rpx;
+	height: 36rpx;
+	margin-right: 20rpx;
+	margin-top: 36rpx;
+	text-align: center;
+	line-height: 36rpx;
+}
+.my_box .list .icon .iconfont{
+	color: #ff7e00;
+	font-size: 34rpx;
+}
+.my_box .list:not(:last-child){
+	border-bottom: 1rpx solid #ddd;
+}
+
+

@@ -1,0 +1,18 @@
+{
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "titleColor": "#666",
+    "backgroundColor": "#fff",
+    "buttons": [
+      {
+        "fontSrc": "/static/iconfont.ttf",
+        "text": "编辑",
+        "width": "2rem",
+        "height": "2rem",
+        "fontSize": "26upx",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,93 @@
+
+.top_bgcolor{
+	width: 100%;
+	height: 450rpx;
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/youfangyouche/integral_01.png') no-repeat center;
+	background-size: 100% 100%;
+	/* margin-top: -88upx; */
+	padding-top: 160rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-align: center;
+}
+.top_bgcolor .text{
+	font-size: 34rpx;
+	color: #fff;
+	text-align: center;
+}
+.top_bgcolor .num{
+	font-size: 60rpx;
+	color: #fff;
+	margin: 10rpx 0 20rpx;
+	text-align: center;
+}
+.btn_box{
+	width: 750rpx;
+	padding: 0 180rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.btn{
+	width: 150rpx;
+	height: 50rpx;
+	border: 1rpx solid #fff;
+	border-radius: 10rpx;
+	font-size: 30rpx;
+	line-height: 50rpx;
+	color: #fff;
+}
+.title{
+	margin-top: 30rpx;
+	font-size: 34rpx;
+	color: #333;
+	line-height: 34rpx;
+}
+.title .line{
+	width: 10rpx;
+	height: 30rpx;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff8e06), to(#ff5011));
+	background: -o-linear-gradient(top, #ff8e06, #ff5011);
+	background: linear-gradient(top, #ff8e06, #ff5011);
+	margin: 2rpx 10rpx 0 20rpx;
+}
+.box{
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.box .list{
+	padding: 30rpx 0;
+}
+.box .list .type{
+	font-size: 34rpx;
+	color: #333;
+}
+.box .list .num{
+	font-size: 26rpx;
+	color: #888;
+	margin: 16rpx 0;
+}
+.box .list .num .money{
+	font-size: 40rpx;
+	color: #fe3838;
+	margin-top: -12rpx;
+}
+.box .list .num .red{
+	color: #0bc94e;
+}
+.box .data_box{
+	font-size: 26rpx;
+	color: #888;
+}
+.box .data_box .data{
+	margin-right: 20rpx;
+}
+

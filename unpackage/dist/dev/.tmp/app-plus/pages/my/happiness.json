@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "幸福指数",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#666",
+    "backgroundColor": "#fff"
+  },
+  "usingComponents": {}
+}

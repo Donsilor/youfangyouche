@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "首页",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#fff",
+    "backgroundColor": "#ff5d13",
+    "buttons": [
+      {
+        "fontSrc": "./static/iconfont.ttf",
+        "text": "",
+        "color": "#fff",
+        "background": "rgba(0,0,0,0.3)"
+      }
+    ],
+    "searchInput": {
+      "backgroundColor": "#fff",
+      "borderRadius": "20px",
+      "placeholder": "搜索商品",
+      "disabled": true
+    }
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,1 @@
+<view class="container" bind:__l="__l"><view class="img_box"><image src="../../static/images/logo_03.png"></image></view><view class="title">有房有车</view><view class="versions">v1.0.0.0</view><view class="updata">检测更新</view></view>

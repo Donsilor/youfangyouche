@@ -1,0 +1,37 @@
+
+page{
+	background-color: #f5f5f5;
+}
+.tit{
+	height: 76rpx;
+	line-height: 86rpx;
+	padding-left: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 28rpx;
+	color: #999;
+}
+.list{
+	height: 100rpx;
+	background-color: #fff;
+	padding-left: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 30rpx;
+	color: #666;
+	line-height: 100rpx;
+}
+.line{
+	border-top: 1rpx solid #e5e5e5;
+}
+.list .color{
+	color: #f72c2c;
+}
+.list .ipt{
+	width: 80%;
+	margin-top: 22rpx;
+}
+.btn_r{
+	margin-top: 125rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="container" bind:__l="__l"><view class="img_box"><view class="iconfont iconselected _i"></view></view><view class="tit">提交成功</view><view class="text">您的申请已提交成功、等待审核中...</view><view class="text">预计1-2个工作日内审核完成~</view><navigator class="btn_r on" open-type="switchTab" url="./index">返回首页</navigator></view>

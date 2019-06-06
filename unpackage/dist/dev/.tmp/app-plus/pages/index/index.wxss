@@ -1,0 +1,271 @@
+
+.banner.data-v-2221ba96{
+	width: 750rpx;
+	height: 446rpx;
+}
+.swiper.data-v-2221ba96 {
+	width: 750rpx;
+	height: 446rpx;
+}
+.swiper-item.data-v-2221ba96 {
+	display: block;
+	width: 100%;
+	height: 446rpx;
+	line-height: 446rpx;
+	text-align: center;
+}
+.swiper-list.data-v-2221ba96 {
+	margin-top: 40rpx;
+	margin-bottom: 0;
+}
+.uni-common-mt.data-v-2221ba96{
+	margin-top:60rpx;
+	position:relative;
+}
+.info.data-v-2221ba96 {
+	position: absolute;
+	right:20rpx;
+}
+.swiper_img.data-v-2221ba96{
+	width: 100%;
+	height: 100%;
+}
+.notice.data-v-2221ba96{
+	border-top: 20rpx solid #f5f5f5;
+	border-bottom: 20rpx solid #f5f5f5;
+}
+.notice .tit.data-v-2221ba96{
+	width: 690rpx;
+	height: 70rpx;
+	line-height: 70rpx;
+	font-size: 26rpx;
+	margin-left: 30rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+	white-space: normal;
+}
+.notice .tit ._i.data-v-2221ba96{
+	color: #ff8e06;
+}
+.notice .tit .color.data-v-2221ba96{
+	color: #ff8e06;
+	margin: 0 10rpx;
+}
+.notice .box.data-v-2221ba96{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	height: 230rpx;
+	width: 100%;
+}
+.notice .box .t_list.data-v-2221ba96{
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 24rpx;
+	color: #333;
+}
+.notice .box .t_list .i_box.data-v-2221ba96{
+	width: 100rpx;
+	height: 100rpx;
+	margin-bottom: 20rpx;
+}
+.notice .box .t_list .i_box image.data-v-2221ba96{
+	width: 100%;
+	height: 100%;
+}
+.member.data-v-2221ba96{
+	border-bottom: 20rpx solid #f5f5f5;
+}
+.member .img_box.data-v-2221ba96{
+	width: 750rpx;
+	height: 220rpx;
+}
+.member .img_box image.data-v-2221ba96{
+	width: 100%;
+	height: 100%;
+}
+.member .time.data-v-2221ba96{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	margin-top: 40rpx;
+}
+.member .time .left.data-v-2221ba96{
+	font-size: 34rpx;
+	color: #333;
+	font-weight: bold;
+}
+.member .time .left .line.data-v-2221ba96,
+.choiceness .line.data-v-2221ba96{
+	height: 30rpx;
+	width: 10rpx;
+	background-color: #ff8e06;
+	margin: 10rpx 10rpx 0 0;
+}
+.member .time .mid.data-v-2221ba96{
+	font-size: 28rpx;
+	color: #333;
+}
+.member .time .mid .bgcolor.data-v-2221ba96{
+	display: inline-block;
+	width: 36rpx;
+	height: 36rpx;
+	background-color: #333;
+	border-radius: 5rpx;
+	line-height: 36rpx;
+	text-align: center;
+	font-size: 24rpx;
+	color: #fff;
+}
+.member .time .mid .space.data-v-2221ba96{
+	margin-right: 10rpx;
+}
+.member .time .right.data-v-2221ba96{
+	font-size: 28rpx;
+	color: #999;
+}
+.member .time .right .iconfont.data-v-2221ba96{
+	margin: 6rpx 0 0 10rpx;
+}
+.member .i_box.data-v-2221ba96{
+	width: 750rpx;
+	height: 350rpx;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+.member .scoll.data-v-2221ba96{
+	width: 5000rpx;
+	padding-right: 30rpx;
+	/* height: 350upx; */
+	/* border: 1px solid red; */
+}
+.member .i_box .i_list.data-v-2221ba96{
+	width: 200rpx;
+	margin-right: 20rpx;
+}
+.member .i_box .i_list .img_box.data-v-2221ba96{
+	width: 200rpx;
+	height: 200rpx;
+}
+.member .i_box .i_list .img_box image.data-v-2221ba96{
+	width: 100%;
+	height: 100%;
+}
+.member .i_box .i_list .now_price.data-v-2221ba96{
+	font-size: 36rpx;
+	color: #f70c12;
+	text-align: center;
+	margin: 20rpx 0 0;
+}
+.member .i_box .i_list .odd_price.data-v-2221ba96{
+	font-size: 26rpx;
+	color: #999;
+	text-decoration: line-through;
+	text-align: center;
+}
+.choiceness.data-v-2221ba96{
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 34rpx;
+	color: #333;
+	font-weight: bold;
+}
+.content.data-v-2221ba96{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	padding: 20rpx 20rpx 40rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	background-color: #f5f5f5;
+}
+.content .list.data-v-2221ba96{
+	width: 344rpx;
+	background-color: #fff;
+	margin-bottom: 20rpx;
+	padding-bottom: 10rpx;
+}
+.content .list .img_box.data-v-2221ba96{
+	width: 344rpx;
+	height: 344rpx;
+}
+.content .list .img_box image.data-v-2221ba96{
+	width: 100%;
+	height: 100%;
+}
+.content .list .text.data-v-2221ba96{
+	font-size: 26rpx;
+	color: #353535;
+	margin: 20rpx 0 16rpx;
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.content .list .price.data-v-2221ba96{
+	padding: 0 20rpx;
+}
+.content .list .price .color.data-v-2221ba96{
+	font-size: 32rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	color: #ff1919;
+}
+.content .list .price .color .small.data-v-2221ba96{
+	font-size: 22rpx;
+}
+.content .list .price .sales_volume.data-v-2221ba96{
+	font-size: 22rpx;
+	color: #999;
+}
+

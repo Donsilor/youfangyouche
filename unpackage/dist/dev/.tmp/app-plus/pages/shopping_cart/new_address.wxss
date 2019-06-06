@@ -1,0 +1,48 @@
+
+.container{
+	width: 100%;
+	padding: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.list{
+	width: 100%;
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #e5e5e5;
+	font-size: 30rpx;
+}
+.list .left{
+	width: 32%;
+	height: 100rpx;
+	color: #666;
+}
+.list .right{
+	width: 68%;
+	height: 100rpx;
+	color: #333;
+}
+.list .right .ipt{
+	width: 80%;
+	height: 40rpx;
+	line-height: 60rpx;
+	margin-top: 30rpx;
+}
+.list .right .icon{
+	width: 44rpx;
+	height: 44rpx;
+	margin-top: 30rpx;
+	line-height: 44rpx;
+	color: #ccc;
+}
+.heig{
+	height: 180rpx;
+}
+.heig textarea{
+	width: 90%;
+	height: 130rpx;
+	margin-top: 32rpx;
+	font-size: 30rpx;
+}
+
+

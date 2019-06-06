@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "绑定银行卡",
+  "usingComponents": {
+    "mpvue-picker": "/pages/common/mpvuePicker",
+    "mpvue-city-picker": "/pages/common/mpvueCityPicker"
+  }
+}

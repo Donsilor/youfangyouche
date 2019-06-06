@@ -1,0 +1,35 @@
+
+.box{
+	padding: 0 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.box .list{
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #ddd;
+}
+.box .list .type{
+	font-size: 30rpx;
+	color: #333;
+}
+.box .list .num{
+	font-size: 26rpx;
+	color: #888;
+	margin: 16rpx 0;
+}
+.box .list .num .money{
+	font-size: 40rpx;
+	color: #fe3838;
+	margin-top: -28rpx;
+}
+.box .list .num .red{
+	color: #0bc94e;
+}
+.box .data_box{
+	font-size: 26rpx;
+	color: #888;
+}
+.box .data_box .data{
+	margin-right: 20rpx;
+}
+

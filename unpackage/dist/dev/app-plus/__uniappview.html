@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"yfyc-app","entryPagePath":"pages/index/login.html","page":{"pages/index/login.html":{"window":{"navigationBarTitleText":"","usingComponents":{}}},"pages/index/reg.html":{"window":{"navigationBarTitleText":"","usingComponents":{}}},"pages/index/find_password.html":{"window":{"navigationBarTitleText":"","usingComponents":{}}},"pages/index/index.html":{"window":{"navigationBarTitleText":"首页","titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#ff5d13","buttons":[{"fontSrc":"./static/iconfont.ttf","text":"","color":"#fff","background":"rgba(0,0,0,0.3)"}],"searchInput":{"backgroundColor":"#fff","borderRadius":"20px","placeholder":"搜索商品","disabled":true}},"usingComponents":{}}},"pages/index/message.html":{"window":{"navigationBarTitleText":"通知公告","usingComponents":{}}},"pages/index/message_details.html":{"window":{"navigationBarTitleText":"通知公告","usingComponents":{}}},"pages/index/financial.html":{"window":{"navigationBarTitleText":"财商培训","navigationBarTextStyle":"white","titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#ff5d13"},"usingComponents":{}}},"pages/index/financial_join.html":{"window":{"navigationBarTitleText":"财商培训","usingComponents":{}}},"pages/index/submit_succeed.html":{"window":{"navigationBarTitleText":"财商培训","usingComponents":{}}},"pages/index/house_property.html":{"window":{"navigationBarTitleText":"房产","usingComponents":{}}},"pages/index/house_apply.html":{"window":{"navigationBarTitleText":"购房申请信息","usingComponents":{}}},"pages/index/seckill.html":{"window":{"navigationBarTitleText":"秒杀商品","usingComponents":{}}},"pages/shop/shop.html":{"window":{"navigationBarTitleText":"商城","usingComponents":{}}},"pages/shop/all_classify.html":{"window":{"navigationBarTitleText":"商品分类","titleNView":{"titleColor":"#333","backgroundColor":"#fff","buttons":[{"fontSrc":"/static/iconfont.ttf","text":"","width":"2rem","height":"2rem","fontSize":"20px","color":"#333"}]},"usingComponents":{}}},"pages/shop/commodity_details.html":{"window":{"navigationBarTitleText":"商品详情","titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#ff5d13","buttons":[{"fontSrc":"./static/iconfont.ttf","text":"","color":"#fff","fontSize":"20px"}]},"usingComponents":{}}},"pages/shop/commodity_list.html":{"window":{"navigationBarTitleText":"商品详情","titleNView":{"type":"default","titleColor":"#fff","backgroundColor":"#ff5d13","buttons":[{"fontSrc":"./static/iconfont.ttf","text":"","color":"#fff","fontSize":"20px"}],"searchInput":{"backgroundColor":"#fff","borderRadius":"20px","placeholder":"搜索商品","disabled":true}},"usingComponents":{}}},"pages/shop/nearby.html":{"window":{"navigationBarTitleText":"附近商家","usingComponents":{}}},"pages/shop/nearby_details.html":{"window":{"navigationBarTitleText":"商家详情","usingComponents":{}}},"pages/shopping_cart/all_order.html":{"window":{"navigationBarTitleText":"全部订单","usingComponents":{}}},"pages/shopping_cart/order_details.html":{"window":{"navigationBarTitleText":"订单详情","titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#ff5d13"},"usingComponents":{}}},"pages/shopping_cart/new_address.html":{"window":{"navigationBarTitleText":"新建收货地址","usingComponents":{"mpvue-picker":"/pages/common/mpvuePicker","mpvue-city-picker":"/pages/common/mpvueCityPicker"}}},"pages/shopping_cart/confirm_order.html":{"window":{"navigationBarTitleText":"确认订单","usingComponents":{}}},"pages/shopping_cart/select_address.html":{"window":{"navigationBarTitleText":"选择地址","usingComponents":{}}},"pages/shopping_cart/shopping_cart.html":{"window":{"navigationBarTextStyle":"black","titleNView":{"titleColor":"#666","backgroundColor":"#fff","buttons":[{"fontSrc":"/static/iconfont.ttf","text":"编辑","width":"2rem","height":"2rem","fontSize":"26upx","color":"#000"}]},"usingComponents":{}}},"pages/my/my.html":{"window":{"navigationBarTitleText":"个人中心","navigationBarBackgroundColor":"#fff","titleNView":{"type":"transparent","titleColor":"#666","backgroundColor":"#fff"},"usingComponents":{}}},"pages/my/integral.html":{"window":{"navigationBarTitleText":"个人中心","navigationBarBackgroundColor":"#fff","navigationBarTextStyle":"white","titleNView":{"type":"transparent","titleColor":"#666","backgroundColor":"#ffffff","buttons":[{"fontSrc":"/static/iconfont.ttf","text":"积分中心","width":"4rem","height":"2rem","fontSize":"26upx","color":"#000"}]},"usingComponents":{}}},"pages/my/Integral_present.html":{"window":{"navigationBarTitleText":"积分赠送","usingComponents":{}}},"pages/my/happiness.html":{"window":{"navigationBarTitleText":"幸福指数","navigationBarBackgroundColor":"#fff","titleNView":{"type":"transparent","titleColor":"#666","backgroundColor":"#fff"},"usingComponents":{}}},"pages/my/happiness_details.html":{"window":{"navigationBarTitleText":"幸福指数明细","navigationBarBackgroundColor":"transparent","navigationBarTextStyle":"black","titleNView":{"titleColor":"#666","backgroundColor":"#fff","buttons":[{"fontSrc":"/static/iconfont.ttf","text":"全部","width":"2rem","height":"2rem","fontSize":"26upx","color":"#000"}]},"usingComponents":{}}},"pages/my/about.html":{"window":{"navigationBarTitleText":"关于","usingComponents":{}}},"pages/my/withdraw.html":{"window":{"navigationBarTitleText":"提现","usingComponents":{"mpvue-picker":"/pages/common/mpvuePicker","mpvue-city-picker":"/pages/common/mpvueCityPicker"}}},"pages/my/withdraw_log.html":{"window":{"navigationBarTitleText":"提现记录","usingComponents":{}}},"pages/my/choose_card.html":{"window":{"navigationBarTitleText":"选择银行卡","usingComponents":{}}},"pages/my/add_card.html":{"window":{"navigationBarTitleText":"绑定银行卡","usingComponents":{"mpvue-picker":"/pages/common/mpvuePicker","mpvue-city-picker":"/pages/common/mpvueCityPicker"}}},"pages/my/my_fans.html":{"window":{"navigationBarTitleText":"我的粉丝","navigationBarBackgroundColor":"transparent","navigationBarTextStyle":"black","titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#ff5d13"},"usingComponents":{}}},"pages/my/recommend.html":{"window":{"navigationBarTitleText":"推荐码","navigationBarBackgroundColor":"transparent","navigationBarTextStyle":"black","titleNView":{"type":"transparent","titleColor":"#fff","backgroundColor":"#ff5d13"},"usingComponents":{}}},"pages/my/set.html":{"window":{"navigationBarTitleText":"设置","usingComponents":{}}},"pages/my/password_manage.html":{"window":{"navigationBarTitleText":"密码管理","usingComponents":{}}},"pages/my/amend_password_login.html":{"window":{"navigationBarTitleText":"修改登录密码","usingComponents":{}}},"pages/my/amend_password_pay.html":{"window":{"navigationBarTitleText":"修改支付密码","usingComponents":{}}},"pages/my/authentication.html":{"window":{"navigationBarTitleText":"实名认证","usingComponents":{}}},"pages/my/user_name.html":{"window":{"navigationBarTitleText":"更改用户名","usingComponents":{}}},"pages/my/phone_verification.html":{"window":{"navigationBarTitleText":"验证手机号码","usingComponents":{}}},"pages/my/phone_amend.html":{"window":{"navigationBarTitleText":"修改手机号码","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"有车有房","navigationBarBackgroundColor":"#fff","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"#333","selectedColor":"#ff8e06","backgroundColor":"#fff","borderStyle":"black","list":[{"pagePath":"pages/index/index.html","iconPath":"static/images/tab_01.png","selectedIconPath":"static/images/tab_01_r.png","text":"首页"},{"pagePath":"pages/shop/shop.html","iconPath":"static/images/tab_02.png","selectedIconPath":"static/images/tab_02_r.png","text":"商城"},{"pagePath":"pages/shopping_cart/shopping_cart.html","iconPath":"static/images/tab_03.png","selectedIconPath":"static/images/tab_03_r.png","text":"购物车"},{"pagePath":"pages/my/my.html","iconPath":"static/images/tab_04.png","selectedIconPath":"static/images/tab_04_r.png","text":"个人中心"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/login","pages/index/reg","pages/index/find_password","pages/index/index","pages/index/message","pages/index/message_details","pages/index/financial","pages/index/financial_join","pages/index/submit_succeed","pages/index/house_property","pages/index/house_apply","pages/index/seckill","pages/shop/shop","pages/shop/all_classify","pages/shop/commodity_details","pages/shop/commodity_list","pages/shop/nearby","pages/shop/nearby_details","pages/shopping_cart/all_order","pages/shopping_cart/order_details","pages/shopping_cart/new_address","pages/shopping_cart/confirm_order","pages/shopping_cart/select_address","pages/shopping_cart/shopping_cart","pages/my/my","pages/my/integral","pages/my/Integral_present","pages/my/happiness","pages/my/happiness_details","pages/my/about","pages/my/withdraw","pages/my/withdraw_log","pages/my/choose_card","pages/my/add_card","pages/my/my_fans","pages/my/recommend","pages/my/set","pages/my/password_manage","pages/my/amend_password_login","pages/my/amend_password_pay","pages/my/authentication","pages/my/user_name","pages/my/phone_verification","pages/my/phone_amend"],"subPackages":[],"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.9","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

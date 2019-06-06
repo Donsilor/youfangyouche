@@ -1,0 +1,20 @@
+{
+  "navigationBarTitleText": "幸福指数明细",
+  "navigationBarBackgroundColor": "transparent",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "titleColor": "#666",
+    "backgroundColor": "#fff",
+    "buttons": [
+      {
+        "fontSrc": "/static/iconfont.ttf",
+        "text": "全部",
+        "width": "2rem",
+        "height": "2rem",
+        "fontSize": "26upx",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

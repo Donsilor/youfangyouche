@@ -1,0 +1,94 @@
+{
+  "pages": [
+    "pages/index/login",
+    "pages/index/reg",
+    "pages/index/find_password",
+    "pages/index/index",
+    "pages/index/message",
+    "pages/index/message_details",
+    "pages/index/financial",
+    "pages/index/financial_join",
+    "pages/index/submit_succeed",
+    "pages/index/house_property",
+    "pages/index/house_apply",
+    "pages/index/seckill",
+    "pages/shop/shop",
+    "pages/shop/all_classify",
+    "pages/shop/commodity_details",
+    "pages/shop/commodity_list",
+    "pages/shop/nearby",
+    "pages/shop/nearby_details",
+    "pages/shopping_cart/all_order",
+    "pages/shopping_cart/order_details",
+    "pages/shopping_cart/new_address",
+    "pages/shopping_cart/confirm_order",
+    "pages/shopping_cart/select_address",
+    "pages/shopping_cart/shopping_cart",
+    "pages/my/my",
+    "pages/my/integral",
+    "pages/my/Integral_present",
+    "pages/my/happiness",
+    "pages/my/happiness_details",
+    "pages/my/about",
+    "pages/my/withdraw",
+    "pages/my/withdraw_log",
+    "pages/my/choose_card",
+    "pages/my/add_card",
+    "pages/my/my_fans",
+    "pages/my/recommend",
+    "pages/my/set",
+    "pages/my/password_manage",
+    "pages/my/amend_password_login",
+    "pages/my/amend_password_pay",
+    "pages/my/authentication",
+    "pages/my/user_name",
+    "pages/my/phone_verification",
+    "pages/my/phone_amend"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "有车有房",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#ff8e06",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/tab_01.png",
+        "selectedIconPath": "static/images/tab_01_r.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "static/images/tab_02.png",
+        "selectedIconPath": "static/images/tab_02_r.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/shopping_cart/shopping_cart",
+        "iconPath": "static/images/tab_03.png",
+        "selectedIconPath": "static/images/tab_03_r.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/tab_04.png",
+        "selectedIconPath": "static/images/tab_04_r.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "yfyc-app",
+  "compilerVersion": "1.9.9",
+  "usingComponents": {}
+}

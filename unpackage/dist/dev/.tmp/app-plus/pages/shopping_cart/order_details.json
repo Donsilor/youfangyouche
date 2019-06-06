@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#fff",
+    "backgroundColor": "#ff5d13"
+  },
+  "usingComponents": {}
+}

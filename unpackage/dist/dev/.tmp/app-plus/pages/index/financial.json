@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "财商培训",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#fff",
+    "backgroundColor": "#ff5d13"
+  },
+  "usingComponents": {}
+}

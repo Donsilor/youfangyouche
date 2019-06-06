@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "white",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#666",
+    "backgroundColor": "#ffffff",
+    "buttons": [
+      {
+        "fontSrc": "/static/iconfont.ttf",
+        "text": "积分中心",
+        "width": "4rem",
+        "height": "2rem",
+        "fontSize": "26upx",
+        "color": "#000"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

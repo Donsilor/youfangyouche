@@ -1,0 +1,49 @@
+
+.banner{
+	width: 750rpx;
+	height: 500rpx;
+	margin: 0 0 30rpx;
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/youfangyouche/A121.png') no-repeat center;
+	background-size: 100% 100%;
+}
+.box{
+	padding-bottom: 120rpx;
+	width: 710rpx;
+	margin-left: 20rpx;
+}
+.box .list{
+	margin-bottom: 30rpx;
+}
+.box .list .top{
+	font-size: 40rpx;
+	color: #333;
+	margin-bottom: 10rpx;
+}
+.box .list .top .line{
+	width: 8rpx;
+	height: 30rpx;
+	background-color: #fc921f;
+	margin: 12rpx 20rpx 0 0;
+}
+.box .list .top .tit{
+	font-size: 40rpx;
+	color: #333;
+	font-weight: bold;
+}
+.box .list .text{
+	font-size: 30rpx;
+	color: #666;
+}
+.join{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 750rpx;
+	height: 98rpx;
+	background: -webkit-linear-gradient(left, #ff8e06, #ff5011);
+	text-align:center;
+	line-height: 98rpx;
+	font-size: 32rpx;
+	color: #fff;
+}
+

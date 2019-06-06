@@ -1,0 +1,1 @@
+<view class="container" bind:__l="__l"><view class="title">{{detailsItem.title}}</view><view class="hint"><label class="_span">{{detailsItem.time}}</label><label class="_span">{{detailsItem.notice}}</label></view><view class="img_box"><image src="../../static/images/message_01.png"></image></view><view class="text"></view><text class="text">{{detailsItem.text}}</text></view>

@@ -1,0 +1,256 @@
+
+.container{
+	padding-bottom: 120rpx;
+}
+.bg_img{
+	width: 750rpx;
+	height: 350rpx;
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/youfangyouche/order_details_01.png') no-repeat center;
+	background-size: 100% 100%;
+	padding-top: 220rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.bg_img .status{
+	font-size: 30rpx;
+	color: #fff;
+	margin-left: 60rpx;
+}
+.address{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 24rpx 0;
+}
+.address .icon{
+	width: 32rpx;
+	height: 38rpx;
+	margin: 0 20rpx;
+	line-height: 38rpx;
+}
+.address .icon .icondizhi1{
+	color: #fc921f;
+}
+.address .mid{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	padding-right: 20rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.address .mid .user{
+	font-size: 30rpx;
+	color: #000;
+	margin-bottom: 4rpx;
+	font-weight: bold;
+}
+.address .mid ._span{
+	margin-right: 20rpx;
+}
+.address .mid .addr{
+	font-size: 24rpx;
+	color: #666;
+}
+.address .icon_2{
+	height: 44rpx;
+	width: 44rpx;
+	margin-right: 20rpx;
+	line-height: 44rpx;
+	color: #ccc;
+}
+.strip{
+	width: 100%;
+	height: 10rpx;
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/youfangyouche/cart_icon_01.png') no-repeat center;
+	background-size: 100% 100%;
+	margin-top: 24rpx;
+}
+.line_box{
+	width: 100%;
+	height: 88rpx;
+	line-height: 88rpx;
+	font-size: 30rpx;
+	color: #333;
+	border-top: 20rpx solid #f5f5f5;
+}
+.line_box .line{
+	width: 6rpx;
+	height: 26rpx;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff8e06), to(#ff5011));
+	background: -o-linear-gradient(top, #ff8e06, #ff5011);
+	background: linear-gradient(top, #ff8e06, #ff5011);
+	margin: 32rpx 10rpx 0 30rpx;
+}
+.box{
+	padding: 0 20rpx;
+	border-bottom: 20rpx solid #f5f5f5;
+}
+.box .list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 30rpx 0;
+	border-bottom: 1rpx solid #eee;
+}
+.box .list .icon,
+.total .all .icon{
+	width: 44rpx;
+	height: 44rpx;
+	border-radius: 50%;
+	margin: 0 20rpx;
+	border: 1rpx solid #ccc;
+}
+.box .list .icon.active,
+.total .all .icon.active{
+	border-color: #f70c12;
+	background: url('https://szdbi.oss-cn-shenzhen.aliyuncs.com/youfangyouche/icon_02.png') no-repeat center;
+	background-size: 100% 100%;
+}
+.box .list .img_box{
+	width: 180rpx;
+	height: 180rpx;
+	background-color: saddlebrown;
+}
+.box .list .img_box image{
+	width: 100%;
+	height: 100%;
+}
+.box .list .right{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	height: 180rpx;
+	overflow: hidden;
+	margin: 0 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.box .list .right .text{
+	font-size: 26rpx;
+	color: #333;
+	overflow: hidden;
+	-o-text-overflow:ellipsis;
+	   text-overflow:ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	width: 90%;
+}
+.box .list .right .type{
+	background-color: #f5f5f5;
+	height: 40rpx;
+	padding: 0 12rpx;
+	line-height: 40rpx;
+	font-size: 24rpx;
+	border-radius: 5px;
+	display: inline-block;
+}
+.box .list .right .price{
+	color: #f70c12;
+	font-size: 30rpx;
+}
+.box .list .right .price .small{
+	font-size: 20rpx;
+}
+.quantity{
+	font-size: 26rpx;
+	color: #666;
+}
+.box_r{
+	padding: 20rpx;
+}
+.box_r .list_r{
+	height: 50rpx;
+}
+.box_r .list_r .text{
+	font-size: 26rpx;
+	color: #999;
+	height: 50rpx;
+	width: 30%;
+	line-height: 50rpx;
+	overflow: hidden;
+}
+.box_r .list_r .right{
+	height: 50rpx;
+	width: 60%;
+	font-size: 26rpx;
+	color: #888;
+	line-height: 50rpx;
+}
+.box_r .list_r .right .fr{
+	height: 50rpx;
+	line-height: 50rpx;
+}
+.box_r .list_r .right .icon{
+	width: 28rpx;
+	height: 28rpx;
+	margin: 11rpx 0 0 6rpx;
+	line-height: 58rpx;
+	color: #ccc;
+}
+.box_r .list_r .right .ipt{
+	height: 40rpx; 
+	text-align: right;
+}
+.box_r .data{
+	margin-right: 20rpx;
+}
+.box_r .color .text{
+	color: #333;
+}
+.box_r .color .right{
+	font-size: 30rpx;
+	color: #ff8e06;
+}
+.box_r2 .text,
+.box_r2 .right{
+	color: #333 !important;
+}
+.total{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 98rpx;
+	z-index: 6;
+	border-top: 1px solid #ddd;
+	background-color: #fff;
+}
+.total .btn{
+	width: 200rpx;
+	height: 60rpx;
+	margin: 19rpx 30rpx 0 0;
+	border: 1rpx solid #ddd;
+	border-radius: 30rpx;
+	font-size: 24rpx;
+	color: #333;
+	text-align: center;
+	line-height: 58rpx;
+}
+
+

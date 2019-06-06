@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/login",
+    "pages/index/index",
+    "pages/index/message",
+    "pages/index/message_details",
+    "pages/index/reg",
+    "pages/index/find_password",
+    "pages/index/financial",
+    "pages/index/financial_join",
+    "pages/index/submit_succeed",
+    "pages/index/house_property",
+    "pages/index/house_apply",
+    "pages/shop/all_classify",
+    "pages/shop/commodity_details",
+    "pages/shop/commodity_list",
+    "pages/shopping_cart/all_order",
+    "pages/shopping_cart/new_address",
+    "pages/shopping_cart/cart_empty",
+    "pages/shopping_cart/confirm_order",
+    "pages/shopping_cart/select_address",
+    "pages/shopping_cart/shopping_cart",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "有车有房",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

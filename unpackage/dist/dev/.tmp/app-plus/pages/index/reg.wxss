@@ -1,0 +1,60 @@
+
+.container{
+	width: 650rpx;
+	margin: 0 auto;
+}
+.container .user_img{
+	width: 150rpx;
+	height: 150rpx;
+	background-color: #ccc;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.container .user_img image{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.container .box .list{
+	height: 118rpx;
+	font-size: 30rpx;
+	color: #333;
+	border-bottom: 1rpx solid #ddd;
+}
+.container .box .list .ipt{
+	width: 400rpx;
+	height: 36rpx;
+	margin-top: 50rpx;
+}
+.container .box .list .right{
+	width: 200rpx;
+	height: 118rpx;
+	padding-top: 60rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-size: 26rpx;
+	text-align: right;
+	color: #666;
+}
+.container .box .list .right.color{
+	color: #fc921f;
+}
+.container .on{
+	opacity: 1;
+}
+.container .reg{
+	text-align: center;
+	font-size: 26rpx;
+	color: #666;
+	margin-top: 60rpx;
+}
+.container .agree{
+	text-align: center;
+	font-size: 22rpx;
+	color: #ccc;
+	margin-top: 140rpx;
+}
+.container .agree ._span{
+	color: #1d93dd;
+}
+

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "我的粉丝",
+  "navigationBarBackgroundColor": "transparent",
+  "navigationBarTextStyle": "black",
+  "titleNView": {
+    "type": "transparent",
+    "titleColor": "#fff",
+    "backgroundColor": "#ff5d13"
+  },
+  "usingComponents": {}
+}

@@ -1,0 +1,78 @@
+
+.container{
+	width: 650rpx;
+	margin: 0 auto;
+}
+.container .user_img{
+	width: 150rpx;
+	height: 150rpx;
+	background-color: #ccc;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.container .user_img image{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.container .box{
+}
+.container .box .list{
+	height: 118rpx;
+	border-bottom: 1rpx solid #ddd;
+	font-size: 30rpx;
+	color: #333;
+}
+.container .box .list .ipt{
+	width: 400rpx;
+	height: 36rpx;
+	margin-top: 50rpx;
+	font-size: 30rpx;
+	border: 0;
+	outline: none;
+}
+.container .box .list .right{
+	width: 200rpx;
+	height: 118rpx;
+	padding-top: 60rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.container .box .list .right .iconfont{
+	padding: 0 22rpx 6rpx 0;
+	border-right: 1rpx solid #ddd;
+}
+.container .box .list .right .forget{
+	height: 40rpx;
+	line-height: 36rpx;
+	font-size: 26rpx;
+	color: #666;
+}
+.container .box .list .right .verification{
+	color: #999;
+}
+.container .box .list .right .color{
+	color: #fc921f;
+}
+.container .btn{
+	width: 650rpx;
+	height: 94rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#ff8e06), to(#ff5011));
+	background: -o-linear-gradient(left, #ff8e06, #ff5011);
+	background: linear-gradient(left, #ff8e06, #ff5011);
+	border-radius: 47rpx;
+	font-size: 28rpx;
+	color: #fff;
+	line-height: 94rpx;
+	text-align: center;
+	margin: 90rpx auto 60rpx;
+	opacity: .5;
+}
+.container .on{
+	opacity: 1;
+}
+.container .reg{
+	font-size: 26rpx;
+	color: #666;
+}
+
